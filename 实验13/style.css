@@ -13,19 +13,28 @@ header
     height:70px;
     background: red;
 }
+#d0
+{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    float: left;
+    padding-top:20px;
+    background: rgb(243, 176, 33);
+}
 #d1
 {
-    width: 400px;
-    margin-left: 100px;
+    width: 300px;
+    margin-left: 200px;
     float: left;
 }
 #d2
 {
-    width: 200px;
+    text-align: center;
+    width: 150px;
     height: 50px;
     float: left;
     padding-top:20px;
-
 }
 #b1
 {
