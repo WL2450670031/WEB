@@ -96,7 +96,7 @@ header
     width:325px;
     height: 1px;
     margin-top: 0;
-    background-color: green;
+    background: green;
 }
 #d9
 {
@@ -109,7 +109,6 @@ header
 #hr2
 {
     width:325px;
-    height: 1px;
     margin-top: 0;
     background-color: black;
 }
@@ -143,7 +142,44 @@ pre
 #d12
 {
     width: 990px;
+    height: 160px;
+    float: left;
+    background-color: rgb(245, 201, 57);
+}
+#d13
+{
+    width: 150px;
     height: 150px;
     float: left;
-    background-color: rgb(247, 197, 59);
+    margin-left: 130px;
+    margin-top: 10px;
+    color: white;
+}
+#hr4
+{
+    width:150px;
+    border: 0.1px;
+    margin-top: 10px;
+    border-style:dotted;
+}
+#d14
+{
+    width: 990px;
+    height: 40px;
+    float: left;
+    background: black;
+}
+#pre2
+{
+    color: white;
+    font-size:13px;
+    margin-left: 290px;
+}
+#hr5
+{
+    width: 990px;
+    height: 1px;
+    margin:0 auto;
+    border-style:dotted;
+    color: white;
 }
