@@ -2,14 +2,14 @@
 
 body
 {
-    width: 1500px;
+    width: 1530px;
     height:800px;
     margin: 0 auto;
 }
 
 header
 {
-    width: 1500px;
+    width: 1530px;
     height:70px;
     background: red;
 }
@@ -23,7 +23,7 @@ header
 {
     width: 200px;
     height: 50px;
-    float: right;
+    float: left;
     padding-top:20px;
 
 }
@@ -69,14 +69,18 @@ header
 
 #p1
 {
-    width: 200px;
+    width: 320px;
     height:10px;
     font-size:20px;
     margin-top:0 ;
+    float: left;
 }
 #p2
 {
-    margin-top:0 ;
+    width: 320px;
+    height:10px;
+    margin-top:0;
+    float: left;
 }
 #d7
 {
@@ -166,14 +170,15 @@ pre
 {
     width: 990px;
     height: 40px;
+    margin: 0 auto;
     float: left;
     background: black;
 }
 #pre2
 {
     color: white;
-    font-size:13px;
-    margin-left: 290px;
+    font-size:10px;
+    margin-left: 320px;
 }
 #hr5
 {
@@ -182,4 +187,37 @@ pre
     margin:0 auto;
     border-style:dotted;
     color: white;
+}
+#d15
+{
+    width: 320px;
+    height:250px;
+    overflow: hidden;
+    float: left;
+}
+
+#d16
+{
+    width: 1280px;
+    height: 250px;
+    animation: 15s;
+    animation-name:demo;
+    animation-iteration-count:  infinite; 
+    animation-timing-function:ease-in-out;
+}
+#d16 img
+{
+    float: left;
+}
+@keyframes demo
+{
+    0%{}
+    5%{transform: translateX(0px);}
+    15%{transform: translateX(-320px);}
+    30%{transform: translateX(-320px);}
+    45%{transform: translateX(-640px);}
+    60%{transform: translateX(-640px);}
+    75%{transform: translateX(-960px);}
+    90%{transform: translateX(-960px);}
+    100%{transform: translateX(0px);}
 }
